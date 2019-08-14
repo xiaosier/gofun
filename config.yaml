@@ -1,0 +1,4 @@
+name: eypp
+version: 1
+handle:
+- hostaccess: if (%{REQ:User-Agent} ~ "ahrefs.com") allow "127.0.0.1"
