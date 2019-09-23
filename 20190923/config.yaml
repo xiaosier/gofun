@@ -1,0 +1,4 @@
+name: z123
+version: 2
+handle:
+- rewrite: if (!-d && !-f) goto "/ThinkCMF/public/index.php?%{QUERY_STRING}"
