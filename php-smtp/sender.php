@@ -1,3 +1,4 @@
+<?php
 function send_mail_lazypeople($to, $subject = 'Your register infomation', $body) {
     $loc_host = "SAE";        
     $smtp_acc = "你的账号地址";
